@@ -42,7 +42,7 @@ background-repeat: repeat;
 opacity: .5!important;
 background-position: 0 0;
 width: 4699px;
-height: 440px;
+height: 100%;
 transition: opacity .5s ease-out;
 -webkit-animation: move-slideshow 75s linear infinite;
 animation: move-slideshow 75s linear infinite;
@@ -98,6 +98,10 @@ animation: move-slideshow 75s linear infinite;
   position: relative;
   color: white;
   padding-bottom: 60px;
+}
+
+#hero h1, #hero h2 {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 #hero h1 {
